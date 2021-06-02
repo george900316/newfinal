@@ -1,0 +1,118 @@
+p {
+	font-family: 'Noto Sans TC', sans-serif;
+	color: #0047AB;
+	font-size: 20px;
+}
+
+.navbaricon img {
+ height: 80px;
+ margin-bottom: -15px;
+ margin-left: -50px;
+ object-fit: contain;
+}
+
+.navbar-custom {
+	background-color: #3A58A6;
+}
+
+.nav-link {
+	color: white!important;
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 18px;
+	transition: all 0.5s ease 0s;
+}
+
+.nav-link:hover {
+	color: #c4c4c4!important;
+}
+
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+	padding-left:50px!important;
+	padding-right:70px!important; 
+}
+
+}
+
+/*Main*/
+
+body {
+	margin: 0;
+	background-color: #E4EFFF!important;
+}
+
+/*最新消息-標題*/
+
+.main h1 {
+	text-align: center;
+	color: #3A58A6;
+	font-size: 30px;
+	margin-top: 200px;
+	font-weight: 1000;
+}
+
+/*最新消息-消息*/
+
+.news {
+	margin-left: 30%;
+	margin-top: 40px;
+}
+
+.news h2 {
+	text-align: left;
+	color: #3A58A6;
+	font-size: 18px;
+	font-weight: 550;
+
+}
+
+/*最新消息-按鈕*/
+
+.parent {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.button {
+	background-color: #3A58A6;
+	width: 110px;
+	height: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 3px solid #3A58A6;
+	border-radius: 14px;
+	margin-top: 50px;
+	margin-bottom: 65px;
+}
+
+.button a {
+	color: #ffffff;
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: 550;
+}
+
+/*Footer*/
+
+.footer {
+ background-color: #3A58A6;
+ display: flex;
+ align-items: center;
+
+ justify-content: center;
+ width: 100%;
+ height: 50px;
+ margin-top: 0;
+ position: fixed;
+ bottom: 0;
+}
+
+.footer p {
+ color: #ffffff;
+ font-size: 14px;
+ font-family: 'Noto Sans TC', sans-serif;
+ margin-bottom: 0;
+}

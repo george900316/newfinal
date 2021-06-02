@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>Final Project</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/search.style.css">
+  <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+      <style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+  </style>
+</head>
+<body>
+    <!-- 選單列 -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbar-custom">
+     <a class="navbaricon" href="./index.html"><img src="img/ebookcase.png"></a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+       </button>
+     
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav ml-auto">
+      <li class="nav-item"><a class="nav-link" href="./search.html.html">館藏搜尋</a></li>
+       <li class="nav-item"><a class="nav-link" href="./rank1.html">熱門排行</a></li>
+        <li class="nav-item"><a class="nav-link" href="./contact.html">聯絡我們</a></li> 
+         <li class="nav-item"><a class="nav-link" href="./pageone.html">最新消息</a></li>
+         </ul>
+       </div>
+     </nav>
+
+    <!--館藏搜尋-->
+<div class="find">
+    <h1>館藏搜尋</h1>
+      <div class="form">
+       <div><input type="text" placeholder="輸入圖書、視聽資料"></div>
+       <div><input type="submit" value="搜尋"></div>
+      </div>
+    <h2>進階搜尋</h2>
+</div>
+
+<div class="search">
+    <div class="advanced" style="display: block;">
+    <div class="key">
+        <select name="as_type" id="as_type_1">
+
+                    <option value="t">書刊名</option>
+                    
+            
+                
+                    <option value="a">作者</option>
+                    
+            
+                
+                    <option value="p">出版者</option>        
+        </select>
+        <input type="text" placeholder="輸入">
+    </div>
+
+    <div class="cloum-2">
+        <div class="cloum">
+            <p>資料類型</p>
+            <div class="options">
+                <div class="options-box" style="display: block;">
+                         <label class="checkbox-tick-box"><input type="checkbox" name="datatype" value="漫畫"><div class="check"></div>漫畫</label>
+                      
+                         <label class="checkbox-tick-box"><input type="checkbox" name="datatype" value="有聲書"><div class="check"></div>有聲書</label>
+                                            
+                         <label class="checkbox-tick-box"><input type="checkbox" name="datatype" value="電子資源"><div class="check"></div>電子資源</label>
+                      
+                         <label class="checkbox-tick-box"><input type="checkbox" name="datatype" value="繪本"><div class="check"></div>繪本</label>  
+                </div>
+                <!-- class="options-box" End -->
+            </div>
+            <!-- class="options" End -->
+        </div>
+        <div class="cloum">
+            <p>語言</p>
+            <div class="options">
+                <div class="options-box" style="display: block;">
+                    
+                         <label class="checkbox-tick-box"><input type="checkbox" name="lang" value="chi"><div class="check"></div>中文</label>
+                      
+                         <label class="checkbox-tick-box"><input type="checkbox" name="lang" value="eng"><div class="check"></div>英文</label>
+                      
+                         <label class="checkbox-tick-box"><input type="checkbox" name="lang" value="jpn"><div class="check"></div>日文</label>
+                      
+                         <label class="checkbox-tick-box"><input type="checkbox" name="lang" value="kor"><div class="check"></div>韓文</label>
+                      
+                         <label class="checkbox-tick-box"><input type="checkbox" name="lang" value="fre"><div class="check"></div>法文</label>
+                      
+                         <label class="checkbox-tick-box"><input type="checkbox" name="lang" value="ger"><div class="check"></div>德文</label>
+                </div>
+                <!-- class="options-box" End -->
+            </div>
+            <!-- class="options" End -->
+        </div>
+             
+    </div>
+    </div>
+
+</div>
+
+<div class="text-center"><input type="go" value="傳送"></div>
+ 
+</body>
+
+<!--Footer-->
+
+<div class="footer">
+    <p>客服專線:0800-085123</p>
+  </div>
+
+
+</html>
