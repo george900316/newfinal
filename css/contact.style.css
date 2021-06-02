@@ -1,0 +1,126 @@
+body, html{
+	background-color: #E4EFFF;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+.navbaricon img {
+    height: 80px;
+    margin-bottom: -15px;
+    margin-left: -50px;
+    object-fit: contain;
+   }
+   .navbar-custom {
+    background-color: #3A58A6;
+   }
+   
+   .nav-link {
+    color: white!important;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 18px;
+   }
+   
+   @media (min-width: 768px) {
+   /*nav選單*/
+    .navbar{
+    padding-left:50px!important;
+    padding-right:70px!important; 
+   }
+   }
+
+.contact h1{
+    font-family: 'Noto Sans TC', sans-serif;
+    text-align: center;
+	color: #3A58A6;;
+} 
+
+.contact{
+	margin-top: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.form {
+	max-width: 600px;
+	margin:0 auto;
+	padding: 0 30px;
+	color:#ffffff;
+}
+
+.form input {
+	height: 50px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+.form textarea {
+	height: 200px;
+	width: 500px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+
+
+.contact {
+	height: 400px;
+	padding-top: 100px;
+    background-color: #E4eefe;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top center;
+	
+}
+
+
+.buttons{
+	display: flex;
+	justify-content: center;
+  }
+
+.buttons button{
+	    font-family: 'Noto Sans TC', sans-serif;
+	width: 100px;
+	height: 40px;
+	padding: 0;
+	margin: 20px 20px 20px 20px;
+	border: none;
+	color: #3A58A6;
+	background-color: #fff;
+	border-radius: 10px;
+	cursor: pointer;
+  }
+
+
+.footer {
+	background-color: #3A58A6;
+	display: flex;
+	align-items: center;
+   
+	justify-content: center;
+	width: 100%;
+	height: 50px;
+	margin-top: 0;
+	position: fixed;
+	bottom: 0;
+   }
+   
+   .footer p {
+	color: #ffffff;
+	font-size: 14px;
+	font-family: 'Noto Sans TC', sans-serif;
+	margin-bottom: 0;
+   }

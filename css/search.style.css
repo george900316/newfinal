@@ -1,0 +1,234 @@
+body, html{
+	background-color: #E4EFFF;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.navbaricon img {
+    height: 80px;
+    margin-bottom: -15px;
+    margin-left: -50px;
+    object-fit: contain;
+   }
+   
+   .navbar-custom {
+    background-color: #3A58A6;
+   }
+   
+.nav-link {
+  color: white!important;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 18px;
+  transition: all 0.5s ease 0s;
+}
+
+.nav-link:hover {
+  color: #c4c4c4!important;
+}
+   
+   @media (min-width: 768px) {
+   /*nav選單*/
+    .navbar{
+    padding-left:50px!important;
+    padding-right:70px!important; 
+   }
+   }
+
+
+.find h1{
+    margin-top: -20px;
+    text-align: center;
+	color: #3A58A6;;
+  font-family: 'Noto Sans TC', sans-serif;
+} 
+
+.find h2{
+        margin-top: 50px;
+        margin-bottom: 25px;
+        font-size: 30px;
+        text-align: left;
+        color: #6495ED;
+        text-align: center;
+        font-family: 'Noto Sans TC', sans-serif;
+} 
+
+.find{
+	margin-top: 130px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.form {
+	max-width: 600px;
+    height: 40px;
+	margin:0 auto;
+	padding: 0 30px;
+	color:#ffffff;
+    width: 33%;
+	display: flex;
+	flex-direction: row;
+}
+
+.form input {
+	height: 48px;
+	width: 480px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin-left: -100px;
+}
+
+
+
+
+
+input[type=submit] {
+  background-color: #3A58A6;
+  color: white;
+  cursor: pointer;
+  width: 70px!important;
+  height: 48px;
+  margin-left: 10px;
+}
+
+input[type=submit]:hover {
+  background-color: #6495ED;
+}
+
+.contact {
+	height: 400px;
+	padding-top: 100px;
+    background-color: #E4eefe;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top center;
+    text-align: center;	
+}
+
+
+.key {
+	max-width: 600px;
+    height: 40px;
+	margin:0 auto;
+	padding: 0 30px;
+	color:#ffffff;
+    width: 33%;
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+
+}
+
+.key input {
+	height: 40px;
+	width: 480px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+    border-top: 100px;
+    margin-left: 10px;
+
+}
+
+
+
+.search {
+    width: 745px;
+    margin: 0 auto;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #e3e3e3; }
+   
+    .search .advanced {
+      width: 650px;
+      margin: 0 auto;
+      display: none; }
+      .search .advanced p {
+        font-size: 1.125rem;
+        font-weight: bold;
+        margin: 12px 0 5px; }
+      
+      
+      .search .advanced .cloum {
+        text-align: left; }
+        .search .advanced .cloum select {
+          width: 100%;
+          height: auto;
+          background: none;
+          position: relative; }
+        .search .advanced .cloum .options {
+          position: relative;
+        }
+        .search .advanced .cloum .option-box {
+            position: relative;
+          }
+         
+            
+      .search .advanced .cloum-2 {
+        display: flex;
+        justify-content: flex-start; 
+        flex-direction: column;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+        .search .advanced .cloum-2 .cloum {
+         margin-top: 10px;
+         text-align: center;
+      }
+      .search .advanced .cloum-2 p {
+        margin-top: 20px;
+        font-size: 25px;
+        text-align: center;
+        color: #3A58A6;
+      }
+
+
+      input[type=go] {
+        background-color: #3A58A6;
+        color: white;
+        cursor: pointer;
+        width: 70px!important;
+        height: 40px;
+        transform: translateX(-50%);
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 8px;
+        text-align: center;
+      }
+      
+      input[type=go]:hover {
+        background-color: #6495ED;
+      }
+    
+    
+    
+      .footer {
+        background-color: #3A58A6;
+        display: flex;
+        align-items: center;
+       
+        justify-content: center;
+        width: 100%;
+        height: 50px;
+        margin-top: 0;
+        position: fixed;
+        bottom: 0;
+       }
+       
+       .footer p {
+        color: #ffffff;
+        font-size: 14px;
+        font-family: 'Noto Sans TC', sans-serif;
+        margin-bottom: 0;
+       }
+    
+    
